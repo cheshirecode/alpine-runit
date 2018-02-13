@@ -1,4 +1,4 @@
-FROM node:8.9.3-alpine
+FROM node:alpine
 
 # base
 RUN apk add --no-cache openntpd inotify-tools runit curl && \
