@@ -1,4 +1,4 @@
-FROM alpine
+FROM nginx:alpine
 
 # base
 RUN apk add --no-cache openntpd inotify-tools runit curl && \
